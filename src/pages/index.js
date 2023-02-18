@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Potifólio
           </Link>
         </div>
       </div>
@@ -35,6 +35,20 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/intro">
+            Docusaurus Tutorial - 5min ⏱️
+          </Link>
+        </div>
+        <br></br><div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg "
+            to="/docs/intro">
+            Docusaurus Tutorial - 5min ⏱️
+          </Link><br></br>
+        </div>
       </main>
     </Layout>
   );
